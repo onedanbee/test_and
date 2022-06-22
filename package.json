@@ -1,0 +1,44 @@
+{
+  "name": "@onedanbee/test_and",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ./app --ext .js,.jsx,.ts,.tsx --fix"
+  },
+  "keywords": [
+    "react-native",
+    "react-native-kakao",
+    "kakao"
+  ],
+  "license": "ISC",
+  "repository": {
+    "url": "https://github.com/onedanbee/test_and"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "author": "onedanbee",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "@react-native-community/eslint-config": "^1.1.0",
+    "@types/react": "^16.9.46",
+    "@types/react-native": "^0.63.8",
+    "@typescript-eslint/eslint-plugin": "^4.6.1",
+    "@typescript-eslint/parser": "^4.6.1",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-universe": "^7.0.1",
+    "eslint-plugin-import": "^2.24.0",
+    "eslint-plugin-react-native": "^3.11.0",
+    "prettier": "^2.1.2",
+    "react": "17.0.2",
+    "react-native": "0.67.2",
+    "typescript": "^4.5.4",
+    "yarn": "^1.22.11"
+  }
+}
